@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+ display: flex;
+ flex-direction: row;
+ height: 100vh;
+}
+.left{
+    background-image:url(./book1.jpg);
+    object-fit: fill;
+    width: 50%;
+    background-size:cover;
+}
+.left h1{
+    width: 100%;
+    color: rgb(56, 7, 71);
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.233);
+    font-size: 45px;
+}
+ input{
+font-size: 25px;
+}
+.left h1:hover{
+    color: #b749f7af;
+}
+form{
+    background:linear-gradient(-225deg,white,#b749f7) ;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+form .right h1{
+    font-size: 65px;
+    font-weight: 900;
+    color: white;
+}
+form .right .name{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+}
+form .right .password{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    background: rgba(255, 255, 255, 0.39);
+    border: none;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    background: rgba(128, 0, 128, 0.719);
+}
+.head h1{
+    color: white;
+    padding: 10px;
+}
+.head button{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+button.but{
+    color: black;
+}
+.box{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: space-around;
+    background: rgba(128, 0, 128, 0.521);
+    height: 93vh;
+}
+.box h1 a{
+    color: rgba(255, 255, 255, 0.308);
+    font-size: 25px;
+    justify-content:center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.box h1 a:hover{
+    color: white;
+}
+.b1{
+    padding: 30px;
+    background: purple;
+    margin: 10px;
+}
+.b2{
+    padding: 30px;
+    background: purple;
+    margin: 10px;
+}
+.b3{
+    padding: 30px;
+    background: purple;
+    margin: 10px;
+}
+.b4{
+    padding: 30px;
+    background: purple;
+    margin: 10px;
+}
+.b5{
+    padding: 30px;
+    background: purple;
+    margin: 10px;
+}
+.b6{
+    padding: 30px;
+    background: purple;
+    margin: 10px;
+}
+.box1{
+    display: flex;
+    background:rgba(128, 0, 128, 0.521) ;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 93vh;
+}
+
+.box2{
+    display: flex;
+    background:rgba(128, 0, 128, 0.521) ;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 93vh;
+}
+.box2 form{
+    background:rgba(128, 0, 128, 0) ;
+}
+
+.box2 .Bname{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+}
+.box2 .Bnum,.box3 .Bnum{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+}
+.box2 .Bday{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    width: 40%;
+}
+.box2 table{
+    width: 50%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+    border-color: white;   
+}
+.box2 th{
+    background-color:rgba(128, 0, 128, 0.521);
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    border-color: white;
+}
+.box3{
+    display: flex;
+    background:rgba(128, 0, 128, 0.521) ;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 200vh;
+}
+.box3 form{
+    background:rgba(128, 0, 128, 0) ;
+}
+.box3 table{
+    width: 60%;
+    color: white;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    border-color: white;   
+}
+.box3 th{
+    margin: 20px;
+    background-color:rgba(128, 0, 128, 0.521);
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    border-color: white;
+}
+.box3 th tr{
+    margin: 10px;
+}
+.box3 button.bu{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.box3 h1{
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+.box3 .Bnum{
+    margin-top: 20px;
+}
+.box3 h2{
+    padding: 20px;
+    text-transform: capitalize;
+}
+.box2 h2{
+    font-size: 25px;
+    color: white;
+}
